@@ -1,14 +1,37 @@
 
+/* fix material ui */
 
 h1, p {
     color: #333333;
 }
 
-.mat-expansion-panel-header, .mat-accordion, .mat-panel-title {
+.FAQS mat-expansion-panel-header {
+    background-color: white;
     box-shadow: none;
+}
+.FAQS mat-expansion-panel {
+    background-color: white;
+    box-shadow: none;
+}
+
+.FAQS mat-expansion-panel:hover {
+    background-color: white;
+    box-shadow: none;
+}
+
+.FAQS mat-accordion:hover {
     background-color: white;
 }
 
+.FAQS mat-panel-title:hover {
+    background-color: white;
+}
+
+.FAQS:hover {
+    background-color: white;
+}
+
+/* problem TODO */
 @media screen and (max-width:520px) {
    div {
     display: none;

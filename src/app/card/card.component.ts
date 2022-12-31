@@ -18,6 +18,6 @@ export class CardComponent {
   isShow = false;
 
   toggleCard() {
-    
+    alert('static')
   }
 }
