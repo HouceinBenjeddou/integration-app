@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {faExclamationCircle} from  '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-security',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class SecurityComponent {
 
+  faExclamationCircle = faExclamationCircle;
 }

@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { faSearch, faLocation } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-doctor-appointement',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./doctor-appointement.component.css']
 })
 export class DoctorAppointementComponent {
-
+  faSearch = faSearch;
+  faLocation = faLocation;
+  chercher() {
+    //to do
+  }
 }

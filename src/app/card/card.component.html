@@ -1,0 +1,16 @@
+
+<section class="container mb-6 max-w-[1250px] mx-auto h-auto bg-white rounded-2xl shadow-lg  w-[380px]">
+    <div  [hidden]="isShow" class="flex justify-center flex-col gap-14 overflow-hidden items-center">
+        <h1 class="text-2xl font-medium pt-2 m-2 text-black">{{title}}</h1>
+        <img class="relative w-[250px] mx-2 py-0" src={{image}} alt="image">
+        <p class="max-w-[350px] text-xl text-center ">{{pargraph}}</p>
+        <div class="py-2">
+            <app-button 
+            color=" #3F79A8"
+            text={{btn}}
+            (btnClick)="toggleCard()"
+            ></app-button>
+        </div>
+
+    </div>
+</section>

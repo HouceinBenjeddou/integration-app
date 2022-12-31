@@ -1,8 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-*,
-*:after,
-*:before {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -10,20 +12,28 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    background-color: #E3EEF8;
+    scroll-behavior: smooth;
 }
 
 .container {
-    max-width: 1200px;
     overflow: auto;
-    padding: 30px;
 }
 
 .btn {
     display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     color: #fff;
-    background: #000;
     border: none;
     padding: 10px 20px;
-    cursor: pointer;
     text-decoration: none;
+    border-radius: 8px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 14px;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

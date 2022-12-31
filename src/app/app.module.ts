@@ -12,6 +12,14 @@ import { CTAComponent } from './cta/cta.component';
 import { SecurityComponent } from './security/security.component';
 import { FooterCtaComponent } from './footer-cta/footer-cta.component';
 import { FooterComponent } from './footer/footer.component';
+import { InputComponent } from './input/input.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { CardComponent } from './card/card.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FaqsMaterialComponent } from './faqs-material/faqs-material.component';
+import {MatExpansionModule} from '@angular/material/expansion';
+import { PtagComponent } from './ptag/ptag.component';
+import { NavsComponent } from './navs/navs.component'
 
 @NgModule({
   declarations: [
@@ -24,11 +32,20 @@ import { FooterComponent } from './footer/footer.component';
     CTAComponent,
     SecurityComponent,
     FooterCtaComponent,
-    FooterComponent
+    FooterComponent,
+    InputComponent,
+    CardComponent,
+    FaqsMaterialComponent,
+    PtagComponent,
+    NavsComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule,
+    BrowserAnimationsModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]

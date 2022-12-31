@@ -1,0 +1,86 @@
+
+/* custom bg */
+.bg {
+    background-image: url("../../assets/images/doctor.png");
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 700px;   
+}
+
+span {
+    color : #3F79A8;
+}
+
+h1,p {
+    line-height: 1.4;
+}
+
+
+@media screen and (max-width: 428px) {
+    .bg {
+        position: absolute;
+        background-size: 600px;
+        width: 100px;
+        height: 100px;
+    }
+    .logo {
+        width: 50px;
+    }
+    .hero {
+        right: 22px;
+        overflow: hidden;
+    }
+    .hero h1{
+        font-size: 18px;
+    }
+    .hero p {
+        font-size: 12px;
+        color: black;
+    }
+
+}
+@media screen and ( max-width: 640px) {
+    .bg {
+        height: 500px;
+        width: 100%;
+    }
+    .logo {
+        width: 100px;
+    }
+    .hero {
+        right: 18px;
+        overflow: hidden;
+    }
+    .hero h1{
+        font-size: 28px;
+    }
+    .hero p {
+        font-size: 16px;
+        color: black;
+    }
+}
+@media screen and ( max-width: 768px) {
+    .bg {
+        position: absolute;
+        height: 500px;
+        width: 100%;;
+        
+    }
+    .integration__header {
+        padding-top: 25px;
+    }
+}
+@media screen and ( min-width: 768px) {
+    .integration__header {
+        padding-top: 6rem;
+    }
+    .logo {
+        width: 170px;
+    }
+    .hero {
+        overflow: hidden;
+    }
+}
+
