@@ -1,12 +1,12 @@
 
 <section>
     <div class=" doctor relative max-w-[1200px] -top-[120px] rounded-2xl bg-white shadow-xl  container mx-auto">
-        <div class="flex flex-col justify-center items-center py-10 ">
+        <div class="flex doctor__integration flex-col justify-center items-center py-10 ">
             <div class="flex flex-col justify-center items-center">
-                <div class="text-black relative items-start right-[301px] flex text-start ">
+                <div class="text-black h relative items-start right-[301px] flex text-start ">
                     <h1 class="text-2xl right-9 relative font-bold py-3">Trouvez un rendez-vous!</h1>
                 </div>
-                <div class="flex flex-row justify-center gap-0 overflow-hidden ">
+                <div class="flex inputs flex-row justify-center gap-0 overflow-hidden ">
                     <span>
                         <fa-icon class=" cursor-pointer text-2xl py-3 left-10 top-1 mx-2 relative" [icon]="faSearch"></fa-icon>
                         <input class=" rounded-2xl w-[25rem] py-4 pl-10 border outline-none " type="text" name="medicin" id="medicin" placeholder="Nom médecin,spécialité...">
@@ -16,7 +16,7 @@
                         <input class=" rounded-2xl w-[25rem] py-4 pl-10 border outline-none " type="text" type="text" name="=Address" id="address" placeholder="Adress">
                     </span>
                     
-                    <div class="search mx-3 top-12 relative">
+                    <div class="search mx-3 top-1 relative">
                         <app-button 
                         color=" #3F79A8"
                         text="Rechercher"

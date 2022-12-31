@@ -1,0 +1,138 @@
+
+
+@media screen and (max-width:990px) {
+    .doctor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 500px;
+        margin: 0 auto;
+        position: relative;
+        top: 25rem;
+    }
+    .doctor__integration {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .doctor__integration h1 {
+        font-size: 25px;
+        margin-bottom: 14px;
+        left: 19.5rem;
+        justify-content: center;
+    }
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .search {
+        position: relative;
+        bottom: 10rem;
+        margin: 20px;
+    }
+}
+
+
+
+@media screen and (max-width:700px) {
+    .doctor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 450px;
+        margin: 0 auto;
+        position: relative;
+        top: 25rem;
+    }
+    .doctor__integration {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .doctor__integration h1 {
+        font-size: 20px;
+        margin-bottom: 14px;
+        left: 19.5rem;
+        justify-content: center;
+    }
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .inputs fa-icon {
+        margin: 8px;
+        font-size: 18px;
+        top: 1px;
+    }
+    .inputs input::placeholder{
+        font-size: 16px;
+    }
+    .search {
+        position: relative;
+        bottom: 10rem;
+        margin: 20px;
+    }
+}
+
+
+@media screen and (max-width:520px) {
+    .doctor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 300px;
+        margin: 0 auto;
+        height: 300px;
+        position: relative;
+        top: 25rem;
+    }
+    .doctor__integration {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .doctor__integration h1 {
+        font-size: 15px;
+        margin-bottom: 14px;
+        left: 19.5rem;
+        justify-content: center;
+    }
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .inputs fa-icon {
+        margin: 4px;
+        font-size: 16px;
+        top: 1px;
+    }
+    .inputs input {
+        width: 14rem;
+        margin: 0px 10px;
+    }
+    .inputs input::placeholder{
+        font-size: 13px;
+    }
+    .search {
+        position: relative;
+        bottom: 10rem;
+        margin: 10px;
+    }
+}

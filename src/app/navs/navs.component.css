@@ -10,3 +10,33 @@ ul {
   .header {
     color: #3F79A8;
   }
+
+  @media screen and (max-width:990px) {
+    a {
+      font-size: 16px;
+    }
+    .header {
+      font-size: 20px;
+      font-weight: 600;
+    }
+}
+
+@media screen and (max-width:700px) {
+  a {
+    font-size: 12px;
+  }
+  .header {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width:520px) {
+  .header {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  a {
+    font-size: 16px;
+    text-align: center;
+  }
+}

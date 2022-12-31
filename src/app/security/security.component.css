@@ -3,3 +3,110 @@
 h1,p {
     color: #333333;
 }
+
+
+@media screen and (max-width:990px) {
+
+.security {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        top: 20rem;
+    }
+    .security__content {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .security__content-typo {
+        position: relative;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 25px;
+    }
+    .mySpan {
+        position: relative;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        left: 70px;
+    }
+}
+@media screen and (max-width:700px) {
+
+    .security {
+            display: flex;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            top: 20rem;
+        }
+        .security__content {
+            display: flex;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .security__content-typo {
+            position: relative;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        h1 {
+            font-size: 30px;
+            text-align: center;
+        }
+        p {
+            font-size: 25px;
+        }
+        .mySpan {
+            position: relative;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            left: 70px;
+        }
+    }
+@media screen and (max-width:520px) {
+    h1 {
+        font-size: 23px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    p {
+        font-size: 16px;
+        position: relative;
+        bottom: 20px;
+    }
+    .mySpan {
+        position: relative;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        left: 70px;
+        font-size: 13px;
+        bottom: 24px;
+    }
+    .icon {
+        font-size: 20px;
+    }
+}

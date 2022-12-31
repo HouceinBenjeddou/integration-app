@@ -7,3 +7,50 @@ p {
 h1 {
     color: #333333;
 }
+
+
+@media screen and (max-width:990px) {
+   .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+   }
+}
+
+@media screen and (max-width:700px) {
+    .card {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     position: relative;
+    }
+    p {
+        font-size: 20px;
+    }
+    .cardBtn {
+        position: relative;
+        bottom: 20px;
+    }
+ }
+
+ @media screen and (max-width:520px) {
+    .card {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     position: relative;
+     width: 300px;
+     height: fit-content;
+    }
+    p {
+        font-size: 20px;
+    }
+    .cardBtn {
+        position: relative;
+        bottom: 20px;
+    }
+ }
