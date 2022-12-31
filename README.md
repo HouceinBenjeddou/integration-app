@@ -6,5 +6,6 @@ IMPORTANT NOTICE
 # I have 0 experience in angular, i've learned it in the past hours, and immediately jumped to work on the project.
 #  so please execuse me if isn't what you expected.
 # although, i'll do my best.
+#used techs: Angular, Tailwindcss & CSS3 with BEM, MaterialUI, HTML5.
 #Thank you
 
