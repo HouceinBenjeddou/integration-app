@@ -35,3 +35,9 @@ body {
     font-weight: 600;
     font-size: 14px;
 }
+
+.btn:hover {
+    scale: 1.08;
+    transition-duration: 1s;
+    transition:cubic-bezier(0.47, 0, 0.745, 0.715);
+}

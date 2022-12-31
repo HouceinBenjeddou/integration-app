@@ -110,20 +110,21 @@
     .faqs {
         /* to fix? ??? material ui shit */
         display: none; 
-        top: 30rem;
-        height: 700px;
+
     }
     .faqsCards {
         display: flex;
+        top: 30rem;
         justify-content: center;
-        align-items: center;
+        align-items: center;        
+        height: 300px;
         flex-direction: column;
         position: relative;
-        bottom: 30rem;
         margin-top: 30px;
     }
     .topper {
         display: flex;
+        height: 300px;
         align-items: center;
         flex-direction: column;
     }
@@ -135,7 +136,15 @@
     .header h1 {
         position: relative;
         font-size: 20px;
-        left: 10px;
+        right: 5rem;
+    }
+    .fix {
+        position: relative;
+        justify-content: center;
+        display: flex;
+        font-size: 30px;
+        right: 2rem;
+        top: 1rem;
     }
     .topper_content {
         position: relative;
@@ -143,10 +152,8 @@
         justify-content: space-evenly;
         flex-direction: column;
         right: 0rem;
-        bottom: 26rem;
         margin: 30px;
     }
-
     .cards {
         position: relative;
         display: flex;
