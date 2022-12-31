@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
-import { faTwitter, faFacebook, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
-
+import { faHome} from  '@fortawesome/free-solid-svg-icons'
+import { faFacebook, faTwitter, faLinkedin, faTwitch } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-footer',
@@ -8,8 +8,15 @@ import { faTwitter, faFacebook, faInstagram, faYoutube } from '@fortawesome/free
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent {
+  faHome = faHome;
   faTwitter = faTwitter;
-  faFacebook = faFacebook;
-  faInstagram = faInstagram;
-  faYoutube = faYoutube;
+  faFacebook =faFacebook;
+  faLinkedin = faLinkedin;
+  faTwitch= faTwitch;
+  private linkedinUrl: string = 'https://www.linkedin.com/in/mohammadfaysal/';
+  private fiverrUrl:string = 'https://www.fiverr.com/faisalmuhammad_';
+  private facebookUrl:string = 'https://www.facebook.com/phaysall';
+  private twitterUrl:string = 'https://twitter.com/faisssallll';
+  private githubUrl:string = 'https://github.com/faisalmuhammad';
+  private googleUrl:string = 'https://plus.google.com/+MuhammadFaisal04';
 }
