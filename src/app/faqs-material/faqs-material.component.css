@@ -24,11 +24,7 @@ h1, p {
 }
 
 .FAQS mat-panel-title:hover {
-    background-color: white;
-}
-
-.FAQS:hover {
-    background-color: white;
+    background-color: rgb(241, 240, 240);
 }
 
 #mat-expansion-panel-header-9 {
